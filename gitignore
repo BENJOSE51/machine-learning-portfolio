@@ -1,0 +1,34 @@
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb_save
+__pycache__/
+
+# Data
+data/*.zip
+data/*.pkl
+data/*.joblib
+data/*.csv
+!data/README.md
+
+# Virtual env
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Logs
+*.log
+
+# Model files
+*.h5
+*.pkl
+*.joblib

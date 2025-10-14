@@ -1,0 +1,23 @@
+# Core
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+
+# NLP
+nltk
+scipy
+
+# Deep Learning
+tensorflow
+
+# Deployment (for later)
+fastapi
+uvicorn
+streamlit
+joblib
+pydantic
+
+# Optional
+plotly

@@ -1,0 +1,16 @@
+# Data
+data/*.csv
+data/*.zip
+
+# Models
+models/*
+!models/README.md
+
+# Outputs
+outputs/*
+!outputs/plots/
+!outputs/confusion_matrices/
+
+# Environment
+__pycache__/
+.ipynb_checkpoints/
