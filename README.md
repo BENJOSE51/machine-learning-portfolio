@@ -61,21 +61,20 @@ machine-learning-portfolio/
 
 ## 🚀 Deployment Roadmap
 
-Separate deployment repositories (to be linked here once live):
+Deployment repositories:
 
 | Project | Repository | Description |
 |----------|-------------|-------------|
-| Loan Approval Pipeline | [ml-regression-api](#) | FastAPI + Streamlit + Docker model deployment |
-| NLP Sentiment Classifier | [nlp-text-api](#) | Text classification with Hugging Face / FastAPI |
+| Loan Approval Pipeline | [ml-regression-api](#) | joblib + Streamlit + Docker model deployment |
 
 ---
 
 ## ⚙️ Tech Stack
 
 - **Languages:** Python  
-- **Libraries:** pandas, numpy, scikit-learn, seaborn, matplotlib, tensorflow, joblib  
-- **Deployment:** FastAPI, Streamlit, Docker  
-- **Version Control:** Git & GitHub  
+- **Libraries:** pandas, numpy, scikit-learn, seaborn, matplotlib, tensorflow,pytorch, joblib  
+- **Deployment:** Streamlit, Docker  
+- **Version Control:** VSCode,Git & GitHub  
 
 ---
 
@@ -99,20 +98,12 @@ Separate deployment repositories (to be linked here once live):
    jupyter notebook
    ```
 
----
-
-## 🧠 Future Work
-- Deploy regression and NLP projects with FastAPI & Streamlit.  
-- Add dashboards using Plotly and Streamlit Components.  
-- Experiment with model explainability (SHAP, LIME).
-
----
 
 ## 🧑‍💻 About Me
 
 **Ben Jose**  
-📍 Data Science & ML Enthusiast | Transitioning from customer service to tech  
-🎯 Focus: Machine Learning Engineering and Data Analysis  
+📍 Data Science & ML Enthusiast | Transitioning from mechanical automation to data science 
+🎯 Focus: Data Science and Data Analysis, Machine Learning Engineering  
 📧 Contact: benjose51@gmail.com #+919645259675
 
 ---
