@@ -43,7 +43,7 @@ machine-learning-portfolio/
 - Research notebook explores feature correlations and baseline models.  
 - Pipeline notebook builds a **reproducible ML pipeline** and saves a deployable model:  
   `loan_pipeline_v1.joblib`
-- Upcoming deployment: FastAPI + Streamlit + Docker.
+- Deployment: FastAPI + Streamlit
 
 ### **3️⃣ Classification Project**
 - Focused on categorical predictions using logistic regression and tree-based models.
