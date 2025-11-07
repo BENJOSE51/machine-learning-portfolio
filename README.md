@@ -1,54 +1,115 @@
-# 🏠 Airbnb Market Insights — Exploratory Data Analysis (EDA)
+# 🧠 Machine Learning Portfolio by Ben Jose
 
-This project explores an **Airbnb dataset** to uncover trends, pricing patterns, and key factors that influence listing popularity and pricing.  
-It serves as the foundation for business insights and future predictive modeling.
-
----
-
-## 📘 Project Overview
-
-The goal of this project is to:
-- Analyze Airbnb listings to identify **pricing and demand trends**
-- Understand **how location, room type, and availability** impact prices
-- Detect **outliers and data quality issues**
-- Generate insights useful for **hosts, guests, and business strategy**
+Welcome to my **Machine Learning & Data Science Portfolio** — a collection of real-world projects showcasing my skills across **EDA, supervised & unsupervised learning, NLP, deep learning**, and **ML deployment**.  
+Each project focuses on solving a different type of problem using modern Python-based ML techniques.
 
 ---
 
-## 🧠 Key Objectives
+## 📁 Repository Structure
 
-1. Perform **data cleaning and preprocessing**  
-   - Handle missing values and duplicates  
-   - Convert price data to numeric format  
-   - Fix incorrect datatypes  
+📦 machine-learning-portfolio/
+│
+├── 01_EDA.ipynb # Airbnb Market Insights - Exploratory Data Analysis
+├── 02_Classification_Pipeline_Final.ipynb
+├── 02_Classification_Research_Clean.ipynb
+├── 03_Rossmann_Regression_Ensemble_Clean.ipynb
+├── 04_NLP_TFIDF_Project_Final.ipynb
+├── 05_CNN_Image_Classification_Clean.ipynb
+├── 06_Unsupervised_Customer_Segmentation_Clean.ipynb
+│
+├── app.py # Streamlit app for Loan Classification
+├── loan_pipeline_v1.joblib # Serialized model for Streamlit demo
+├── streamlit.ipynb # Supporting Streamlit demo notebook
+│
+├── requirements.txt # Core dependencies
+└── README.md # Project documentation
 
-2. Conduct **exploratory data analysis (EDA)**  
-   - Study feature distributions (price, reviews, availability, etc.)  
-   - Visualize geographical and categorical patterns  
-   - Detect and handle outliers  
-
-3. Create **new derived features** for deeper insights  
-   - `price_per_review` — price normalized by number of reviews  
-   - `availability_ratio` — yearly availability ratio  
-   - `host_active_years` — years since host joined the platform  
-
-4. Visualize relationships using:
-   - Correlation heatmaps  
-   - Boxplots, histograms, and scatter plots  
-   - Geographic plots via Plotly  
 
 ---
 
-## 🧰 Tools and Libraries Used
+## 🚀 Projects Overview
 
-| Category | Libraries |
-|-----------|------------|
-| **Core** | pandas, numpy |
-| **Visualization** | matplotlib, seaborn, plotly |
-| **ML/Preprocessing (optional)** | scikit-learn |
-| **Environment** | Jupyter Notebook |
+### 🏠 **1. Airbnb Market Insights (EDA)**
+- **Goal:** Explore Airbnb dataset to identify pricing trends, availability patterns, and host behavior.  
+- **Skills:** Data cleaning, feature analysis, correlation, and visualization.  
+- **Libraries:** `pandas`, `seaborn`, `plotly`, `matplotlib`  
+- **Output:** Actionable insights for pricing and customer engagement.  
+
+📘 Notebook: [`01_EDA.ipynb`](01_EDA.ipynb)
 
 ---
 
-## 🗂️ Project Structure
+### 💳 **2. Loan Classification Pipeline (ML + Streamlit Deployment)**
+- **Goal:** Predict whether a loan should be approved based on applicant data.  
+- **Tech Stack:** `scikit-learn`, `pandas`, `joblib`, `streamlit`  
+- **Highlights:**
+  - End-to-end ML pipeline with preprocessing and model
+  - Saved model deployed via Streamlit  
+  - Dynamic feature detection and CSV upload support  
 
+📘 Notebooks:  
+- [`02_Classification_Research_Clean.ipynb`](02_Classification_Research_Clean.ipynb)  
+- [`02_Classification_Pipeline_Final.ipynb`](02_Classification_Pipeline_Final.ipynb)  
+🖥️ App: [`app.py`](app.py)
+
+---
+
+### 🛒 **3. Rossmann Sales Forecasting (Regression Ensemble)**
+- **Goal:** Predict future store sales using historical sales and promotion data.  
+- **Tech Stack:** `scikit-learn`, `xgboost`, `lightgbm`, `catboost`  
+- **Highlights:**
+  - Feature engineering (store type, promo interval, holidays)
+  - Ensemble regression models  
+  - Model evaluation using RMSE  
+
+📘 Notebook: [`03_Rossmann_Regression_Ensemble_Clean.ipynb`](03_Rossmann_Regression_Ensemble_Clean.ipynb)
+
+---
+
+### 🗞️ **4. NLP Text Classification with TF-IDF**
+- **Goal:** Build a text classification model using TF-IDF and ML algorithms.  
+- **Skills:** Text cleaning, tokenization, TF-IDF vectorization, and model evaluation.  
+- **Tech Stack:** `scikit-learn`, `nltk`, `pandas`, `numpy`  
+- **Output:** A trained model for text classification or sentiment analysis.  
+
+📘 Notebook: [`04_NLP_TFIDF_Project_Final.ipynb`](04_NLP_TFIDF_Project_Final.ipynb)
+
+---
+
+### 🧠 **5. CNN Image Classification**
+- **Goal:** Classify images using a Convolutional Neural Network (CNN).  
+- **Tech Stack:** `tensorflow` (or `torch`), `opencv`, `Pillow`, `matplotlib`  
+- **Highlights:**
+  - Custom CNN architecture  
+  - Data augmentation & normalization  
+  - Training and evaluation on image dataset  
+
+📘 Notebook: [`05_CNN_Image_Classification_Clean.ipynb`](05_CNN_Image_Classification_Clean.ipynb)
+
+---
+
+### 👥 **6. Customer Segmentation (Unsupervised Learning)**
+- **Goal:** Segment customers into groups based on purchasing and behavioral data.  
+- **Tech Stack:** `scikit-learn`, `scipy`, `pandas`, `matplotlib`  
+- **Techniques:** K-Means, PCA, Hierarchical Clustering, DBSCAN  
+- **Output:** Actionable customer segments for targeted marketing.  
+
+📘 Notebook: [`06_Unsupervised_Customer_Segmentation_Clean.ipynb`](06_Unsupervised_Customer_Segmentation_Clean.ipynb)
+
+---
+## 👨‍💻 Author
+
+**Ben Jose**  
+📍 Trivandrum, India  
+💼 Data Science & Machine Learning Engineer  
+🧠 Skilled in Python, Data Analysis, NLP, Deep Learning, and Model Deployment  
+📧 [benjose@email.com](mailto:benjose@email.com)  
+🌐 [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
+
+
+## ⚙️ Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/<your-username>/machine-learning-portfolio.git
+   cd machine-learning-portfolio
