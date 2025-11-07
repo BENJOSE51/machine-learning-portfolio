@@ -1,0 +1,18 @@
+# Core libraries
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.2
+joblib==1.4.2
+
+# Visualization
+matplotlib>=3.9.0
+seaborn>=0.13.2
+
+# Gradient boosting and ensemble models
+xgboost==2.1.1
+lightgbm==4.5.0
+catboost==1.2.7
+
+# For notebooks and EDA
+notebook>=7.1.0
+tqdm>=4.66.5
