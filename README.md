@@ -5,28 +5,6 @@ Each project focuses on solving a different type of problem using modern Python-
 
 ---
 
-## 📁 Repository Structure
-
-📦 machine-learning-portfolio/
-│
-├── 01_EDA.ipynb # Airbnb Market Insights - Exploratory Data Analysis │
-├── 02_Classification_Pipeline_Final.ipynb │
-├── 02_Classification_Research_Clean.ipynb │
-├── 03_Rossmann_Regression_Ensemble_Clean.ipynb │
-├── 04_NLP_TFIDF_Project_Final.ipynb │
-├── 05_CNN_Image_Classification_Clean.ipynb │
-├── 06_Unsupervised_Customer_Segmentation_Clean.ipynb │
-│
-├── app.py # Streamlit app for Loan Classification│
-├── loan_pipeline_v1.joblib # Serialized model for Streamlit demo│
-├── streamlit.ipynb # Supporting Streamlit demo notebook│
-│
-├── requirements.txt # Core dependencies │
-└── README.md # Project documentation │
-
-
----
-
 ## 🚀 Projects Overview
 
 ### 🏠 **1. Airbnb Market Insights (EDA)**
