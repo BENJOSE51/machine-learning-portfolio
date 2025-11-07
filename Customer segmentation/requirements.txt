@@ -1,0 +1,14 @@
+# Core libraries
+pandas==2.2.2
+numpy==1.26.4
+
+# Machine learning
+scikit-learn==1.5.2
+scipy==1.13.1
+
+# Visualization
+matplotlib>=3.9.0
+seaborn>=0.13.2
+
+# Jupyter / environment support
+notebook>=7.1.0
